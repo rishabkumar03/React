@@ -10,11 +10,15 @@ function App() {
 
   const addValue = () => {
     // counter += 1;
+    totalCount(prevCounter => prevCounter + 1)
+    totalCount(prevCounter => prevCounter + 1)
+    totalCount(prevCounter => prevCounter + 1)
+    totalCount(prevCounter => prevCounter + 1)
 
-    if(count >= 20) {
-      return;
-    }
-    totalCount(count + 1);
+    // if(count >= 20) {
+    //   return;
+    // }
+    // totalCount(count + 1);
   }
 
   const removeValue = () => {
